@@ -22,7 +22,7 @@ module.exports.helloUser = async (event) => {
     statusCode: 200,
     body: JSON.stringify(
       {
-        message: `HOLA : ${event.pathParameters.name}`,
+        message: `HOLA MUNDO SERVERLESS : ${event.pathParameters.name}`,
         input: event,
       },
       null,
