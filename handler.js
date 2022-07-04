@@ -5,7 +5,7 @@ module.exports.hello = async (event) => {
     statusCode: 200,
     body: JSON.stringify(
       {
-        message: 'HOLA MUNDO SERVERLESS, esto es local',
+        message: 'HOLA MUNDO SERVERLESS, esto es local pipeline',
         input: event,
       },
       null,
