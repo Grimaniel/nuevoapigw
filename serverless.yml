@@ -13,8 +13,8 @@
 
 service: nuevo-api-hola-mundo
 # app and org for use with dashboard.serverless.com
-#app: your-app-name
-#org: your-org-name
+app: nuevo-api-hola-mundo
+org: grimaniel
 
 # You can pin your service to only deploy with a specific Serverless version
 # Check out our docs for more details
@@ -27,6 +27,8 @@ provider:
   apiGateway:
     shouldStartNameWithService: true
 
+plugins:
+  - serverless-offline
 # you can overwrite defaults here
 #  stage: dev
 #  region: us-east-1
