@@ -9,7 +9,7 @@ phases:
       - npm install --silent --no-progress -g serverless@3.16.0
   pre_build:
     commands:
-      - cd cfp-api
+      - cd nuevoapigw
       - npm install --silent --no-progress
   build:
     commands:
